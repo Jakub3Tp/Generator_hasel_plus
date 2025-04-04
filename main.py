@@ -12,6 +12,7 @@ class MyForm(QDialog):
         self.ui.setupUi(self)
         self.ui.generate_button.clicked.connect(self.generate_password)
         self.ui.ok_button.clicked.connect(self.check_data)
+        with open('odm.txt', 'r') as file
         self.show()
         self.password = ""
 
